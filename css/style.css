@@ -19,12 +19,18 @@ header{
 
 h1{
     width: 100%;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 900;
+    padding: 20px 0;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+h3{
+    font-size: 25px;
 }
 
 ul{
@@ -36,8 +42,26 @@ li{
     margin-right: 15px;
 }
 
+p{
+    padding: 20px 0;
+}
+
+hr{
+    border-color: #999;
+}
+
 /* Link related */
 .button a, .button a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.white-button a, .white-button a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-info ul li a, .footer-info ul li a:visited{
     text-decoration: none;
     color: #fff;
 }
@@ -56,8 +80,8 @@ li{
 
 .align-paragraph{
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
 }
 
@@ -113,13 +137,26 @@ li{
     width: 10%;
 }
 
+.jumbotron{
+    padding: 30px 0;
+}
+
+.text-box{
+    padding: 30px;
+}
+
 
 /* Elements */
+.logo{
+    margin: 7px;
+}
+
 .button{
     padding: 5px;
     background-color: #0061FE;
     color: #fff;
     text-align: center;
+    margin: 10px 0;
 }
 
 .white-button{
@@ -128,10 +165,23 @@ li{
     background-color: #fff;
     color: #000;
     text-align: center;
+    margin: 10px 0;
 }
 
 .radio-button{
     margin: 20px 40px 20px 0;
+}
+
+.plan-name{
+    padding: 10px 0;
+}
+
+.img-paragraph{
+    width: 100%;
+}
+
+.footer-info{
+    padding: 70px 0;
 }
 
 /* Utilities */
@@ -151,8 +201,21 @@ li{
     color: #999;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .bold{
     font-weight: bold;
+}
+
+.text-reset{
+    text-decoration: none;
+}
+
+.plan-box{
+    border: 1px solid #999;
+    margin: 30px 0;
 }
 
 .bg-lightblue{
