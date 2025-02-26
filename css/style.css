@@ -258,10 +258,15 @@ hr{
     text-decoration: none;
 }
 
-.plan-box{
+.plan-box-long{
     border: 1px solid #999;
     margin: 30px 0;
     height: 1085px;
+}
+
+.plan-box{
+    border: 1px solid #999;
+    margin: 30px 0;
 }
 
 .bg-lightblue{
@@ -284,6 +289,20 @@ hr{
     padding-bottom: 30px;
 }
 
-.plan-box div ul li{
+.plan-box-long div ul li{
     padding-top: 25px;
+}
+
+/* Animations */
+header div ul li a:hover{
+    text-decoration: underline;
+    color: #0061FE;
+}
+
+.footer-info ul li a:hover{
+    text-decoration: underline;
+}
+
+.button:hover, .fixed-button:hover{
+    background-color: #0041DE;
 }
