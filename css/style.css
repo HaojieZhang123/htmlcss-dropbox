@@ -261,6 +261,7 @@ hr{
 .plan-box{
     border: 1px solid #999;
     margin: 30px 0;
+    height: 1085px;
 }
 
 .bg-lightblue{
@@ -281,4 +282,8 @@ hr{
 
 .jumbo-text-spacing{
     padding-bottom: 30px;
+}
+
+.plan-box div ul li{
+    padding-top: 25px;
 }
