@@ -177,6 +177,7 @@ hr{
     color: #fff;
     text-align: center;
     margin: 10px 0;
+    display: inline-block;
 }
 
 .white-button{
@@ -186,6 +187,7 @@ hr{
     color: #000;
     text-align: center;
     margin: 10px 0;
+    display: inline-block;
 }
 
 .radio-button{
