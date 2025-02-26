@@ -50,6 +50,14 @@ hr{
     border-color: #999;
 }
 
+.footer-info ul{
+    padding: 20px 0;
+}
+
+.footer-info ul li{
+    padding: 10px 0;
+}
+
 /* Link related */
 .button a, .button a:visited{
     text-decoration: none;
@@ -182,6 +190,10 @@ hr{
 
 .footer-info{
     padding: 70px 0;
+}
+
+.footer-lang{
+    padding: 50px 0;
 }
 
 /* Utilities */
