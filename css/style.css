@@ -33,15 +33,6 @@ h3{
     font-size: 25px;
 }
 
-ul{
-    list-style-type: none;
-}
-
-li{
-    display: inline-block;
-    margin-right: 15px;
-}
-
 p{
     padding: 20px 0;
 }
@@ -58,6 +49,55 @@ hr{
     padding: 10px 0;
 }
 
+/* list related */
+ul{
+    list-style-type: none;
+}
+
+.feature-ul{
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 1.3em;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+    padding-left: var(--icon-space);
+}
+.user:before{
+    content: "\f007";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.folder:before{
+    content: "\f07b";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.share:before{
+    content: "\f1e0";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.check:before{
+    content: "\f00c";
+    color: #0061FE;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.feature-ul li{
+    padding: 10px 0;
+}
+
 /* Link related */
 .button a, .button a:visited{
     text-decoration: none;
@@ -68,6 +108,12 @@ hr{
     text-decoration: none;
     color: #000;
 }
+
+.white-button a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .footer-info ul li a, .footer-info ul li a:visited{
     text-decoration: none;
@@ -88,7 +134,7 @@ hr{
 
 .align-paragraph{
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     align-content: flex-start;
     flex-wrap: wrap;
 }
@@ -112,8 +158,13 @@ hr{
 }
 
 /* Containers */
-.container{
+.container-jumbo{
     max-width: 1180px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 990px;
     margin: 0 auto;
 }
 
@@ -163,7 +214,7 @@ hr{
 .arrow-down{
     font-size: 50px;
     position: absolute;
-    bottom: -120px;
+    bottom: 90px;
 }
 
 #invis-line{
@@ -258,12 +309,6 @@ hr{
     text-decoration: none;
 }
 
-.plan-box-long{
-    border: 1px solid #999;
-    margin: 30px 0;
-    height: 1085px;
-}
-
 .plan-box{
     border: 1px solid #999;
     margin: 30px 0;
@@ -289,10 +334,6 @@ hr{
     padding-bottom: 30px;
 }
 
-.plan-box-long div ul li{
-    padding-top: 25px;
-}
-
 /* Animations */
 header div ul li a:hover{
     text-decoration: underline;
@@ -305,4 +346,10 @@ header div ul li a:hover{
 
 .button:hover, .fixed-button:hover{
     background-color: #0041DE;
+}
+
+.white-button:hover{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
 }
