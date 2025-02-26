@@ -37,7 +37,7 @@ li{
 }
 
 /* Link related */
-a, a:visited{
+.button a, .button a:visited{
     text-decoration: none;
     color: #fff;
 }
@@ -49,6 +49,13 @@ a, a:visited{
 
 .align-content{
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.align-paragraph{
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
@@ -87,6 +94,9 @@ a, a:visited{
 .col-60{
     width: 60%;
 }
+.col-50{
+    width: 50%;
+}
 .col-40{
     width: 40%;
 }
@@ -112,6 +122,14 @@ a, a:visited{
     text-align: center;
 }
 
+.white-button{
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
 .radio-button{
     margin: 20px 40px 20px 0;
 }
@@ -123,6 +141,14 @@ a, a:visited{
 
 .blue-text{
     color: #0061FE;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.grey-text{
+    color: #999;
 }
 
 .bold{
