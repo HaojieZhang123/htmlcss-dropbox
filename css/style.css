@@ -172,7 +172,17 @@ hr{
 }
 
 .button{
-    padding: 5px;
+    padding: 10px;
+    background-color: #0061FE;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.fixed-button{
+    width: 100%;
+    padding: 10px;
     background-color: #0061FE;
     color: #fff;
     text-align: center;
@@ -181,7 +191,7 @@ hr{
 }
 
 .white-button{
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #000;
     background-color: #fff;
     color: #000;
