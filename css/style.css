@@ -147,6 +147,7 @@ hr{
 
 .jumbotron{
     padding: 30px 0;
+    height: 650px;
 }
 
 .text-box{
@@ -157,6 +158,12 @@ hr{
 /* Elements */
 .logo{
     margin: 7px;
+}
+
+.arrow-down{
+    font-size: 50px;
+    position: absolute;
+    bottom: -150px;
 }
 
 .button{
@@ -194,6 +201,11 @@ hr{
 
 .footer-lang{
     padding: 50px 0;
+}
+
+.jumbo-spacing{
+    background-color: #fff;
+    height: 150px;
 }
 
 /* Utilities */
@@ -240,4 +252,8 @@ hr{
 
 .bg-black{
     background-color: #000;
+}
+
+.position-relative{
+    position: relative;
 }
