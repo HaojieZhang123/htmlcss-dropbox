@@ -41,6 +41,10 @@ hr{
     border-color: #999;
 }
 
+header div ul li > div{
+    padding: 20px;
+}
+
 .footer-info ul{
     padding: 20px 0;
 }
@@ -62,7 +66,6 @@ ul{
 
 li{
     display: inline-block;
-    margin-right: 15px;
     padding-left: var(--icon-space);
 }
 .user:before{
@@ -99,6 +102,14 @@ li{
 }
 
 /* Link related */
+.menu a{
+    color: black;
+}
+
+.menu a:hover{
+    color: #0061FE;
+}
+
 .button a, .button a:visited{
     text-decoration: none;
     color: #fff;
@@ -171,6 +182,12 @@ li{
 .col-100{
     width: 100%;
 }
+.col-90{
+    width: 90%;
+}
+.col-80{
+    width: 80%;
+}
 .col-70{
     width: 70%;
 }
@@ -202,13 +219,34 @@ li{
 }
 
 .text-box{
-    padding: 30px;
+    padding: 20px;
 }
 
 
 /* Elements */
 .logo{
     margin: 7px;
+}
+
+.menu{
+    top: 62px;
+    left: 0px;
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.menu-card{
+    display: flex;
+    padding: 10px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 .arrow-down{
@@ -330,6 +368,10 @@ li{
     position: relative;
 }
 
+.position-absolute{
+    position: absolute;
+}
+
 .jumbo-text-spacing{
     padding-bottom: 30px;
 }
@@ -352,4 +394,12 @@ header div ul li a:hover{
     background-color: #000;
     border: 1px solid #fff;
     color: #fff;
+}
+
+.menu-card:hover{
+    background-color: #DDD;
+}
+
+.position-relative:hover .menu{
+    display: block
 }
