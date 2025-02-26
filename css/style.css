@@ -213,6 +213,10 @@ hr{
     height: 100px;
 }
 
+#last-paragraph{
+    padding-bottom: 200px;
+}
+
 /* Utilities */
 .black-text{
     color: #000;
