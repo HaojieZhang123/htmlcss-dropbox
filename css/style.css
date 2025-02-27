@@ -331,7 +331,12 @@ li{
     padding-bottom: 200px;
 }
 
-.support-title{
+.slim-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.support-title-box{
     padding: 30px 0;
 }
 
@@ -341,6 +346,15 @@ li{
     margin: 50px 0;
     font-size: 25px;
     color: #999;
+}
+
+.prod-card{
+    padding: 25px;
+}
+
+.big-icon{
+    width: 70px;
+    border-radius: 10px;
 }
 
 /* Utilities */
