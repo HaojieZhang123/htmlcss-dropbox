@@ -15,6 +15,7 @@ header{
     top: 0;
     z-index: 10;
     padding: 20px 10px;
+    box-shadow: 2px 1px 3px;
 }
 
 h1{
@@ -219,6 +220,13 @@ li{
     width: 10%;
 }
 
+.h-20{
+    height: 20%;
+}
+.h-60{
+    height: 60%;
+}
+
 .jumbotron{
     padding: 30px 0;
     height: 650px;
@@ -343,13 +351,13 @@ li{
 .search-box{
     width: 100%;
     padding: 10px;
-    margin: 50px 0;
+    margin: 20px 0;
     font-size: 25px;
     color: #999;
 }
 
 .prod-card{
-    padding: 25px;
+    padding: 20px;
 }
 
 .big-icon{
