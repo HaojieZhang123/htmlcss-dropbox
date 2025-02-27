@@ -38,7 +38,7 @@ p{
 }
 
 hr{
-    border-color: #999;
+    border: 0.5px solid #999;
 }
 
 header div ul li > div{
@@ -228,6 +228,13 @@ li{
     padding: 20px;
 }
 
+.list-box{
+    padding: 10px 0;
+}
+
+.text-divider{
+    margin: 10px 0;
+}
 
 /* Elements */
 .logo{
@@ -324,6 +331,18 @@ li{
     padding-bottom: 200px;
 }
 
+.support-title{
+    padding: 30px 0;
+}
+
+.search-box{
+    width: 100%;
+    padding: 10px;
+    margin: 50px 0;
+    font-size: 25px;
+    color: #999;
+}
+
 /* Utilities */
 .black-text{
     color: #000;
@@ -368,6 +387,10 @@ li{
 
 .bg-black{
     background-color: #000;
+}
+
+.bg-darkgrey{
+    background-color: #1E1919;
 }
 
 .bg-beige{
