@@ -364,6 +364,10 @@ li{
     background-color: #000;
 }
 
+.bg-beige{
+    background-color: #F7F5F2;
+}
+
 .position-relative{
     position: relative;
 }
