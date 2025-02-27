@@ -164,6 +164,12 @@ li{
     flex-wrap: wrap;
 }
 
+.flex-grow{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
 .inline-block{
     display: inline-block;
 }
@@ -255,9 +261,9 @@ li{
     bottom: 90px;
 }
 
-#invis-line{
+.invis-line{
     border: 0.3px solid #FAFAFA;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .button{
