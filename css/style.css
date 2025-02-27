@@ -14,7 +14,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 10;
-    padding: 20px 10px;
+    padding: 0 10px;
     box-shadow: 2px 1px 3px;
 }
 
@@ -223,6 +223,9 @@ li{
 .h-20{
     height: 20%;
 }
+.h-30{
+    height: 30%;
+}
 .h-60{
     height: 60%;
 }
@@ -240,34 +243,48 @@ li{
     padding: 10px 0;
 }
 
+.card-box{
+    padding: 50px 30px;
+    border: 0.1px solid #999;
+}
+
 .text-divider{
     margin: 10px 0;
 }
 
 /* Elements */
 .logo{
-    margin: 7px;
+    padding: 20px 0;
+    margin: 0px 20px;
 }
 
 .menu{
     top: 62px;
     left: 0px;
-    width: 400px;
-    background-color: #fff;
+    width: 300px;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     display: none;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 1px #666;
 }
 
 .menu-card{
     display: flex;
     padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.menu-text{
+    padding-left: 10px;
 }
 
 .icon{
     width: 50px;
-    height: 50px;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .arrow-down{
@@ -390,8 +407,20 @@ li{
     font-weight: bold;
 }
 
+.big-text{
+    font-size: 50px;
+}
+
 .text-reset{
     text-decoration: none;
+}
+
+.grey-underline{
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #999;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
 }
 
 .plan-box{
@@ -431,9 +460,16 @@ li{
     padding-bottom: 30px;
 }
 
+.header-link li .position-relative{
+    padding: 20px 0;
+}
+
+.header-link li{
+    margin: 0 10px;
+}
+
 /* Animations */
 header div ul li a:hover{
-    text-decoration: underline;
     color: #0061FE;
 }
 
@@ -453,8 +489,29 @@ header div ul li a:hover{
 
 .menu-card:hover{
     background-color: #DDD;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+.menu-card:hover h4{
+    color: #0061FE;
+    transition: 0.3s;
 }
 
 .position-relative:hover .menu{
     display: block
+}
+
+.card-box:hover, .prod-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#help div div ul li a:hover{
+    text-decoration: underline;
+}
+
+.grey-underline:hover{
+    text-decoration-color: #fff;
 }
