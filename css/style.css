@@ -220,6 +220,10 @@ li{
     width: 10%;
 }
 
+.max-w-660{
+    max-width: 660px;
+}
+
 .h-20{
     height: 20%;
 }
@@ -259,10 +263,10 @@ li{
 }
 
 .menu{
-    top: 62px;
+    top: 70px;
     left: 0px;
     width: 300px;
-    background-color: white;
+    background-color: rgba(247, 245, 242, 0.7);
     display: flex;
     flex-wrap: wrap;
     display: none;
@@ -432,6 +436,10 @@ li{
     background-color: #B4D0E6;
 }
 
+.bg-cloud{
+    background-color: #B4C8E1;
+}
+
 .bg-white{
     background-color: #fff;
 }
@@ -461,7 +469,7 @@ li{
 }
 
 .header-link li .position-relative{
-    padding: 20px 0;
+    padding: 24px 0;
 }
 
 .header-link li{
@@ -488,7 +496,7 @@ header div ul li a:hover{
 }
 
 .menu-card:hover{
-    background-color: #DDD;
+    background-color: rgba(247, 245, 242, 1);
     text-decoration: none;
     color: #000;
     transition: 0.3s;
@@ -504,7 +512,7 @@ header div ul li a:hover{
 }
 
 .card-box:hover, .prod-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s;
 }
 
